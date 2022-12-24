@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+</head>
+<body>
+
+
+    <img  id="logo"src="/Imagenes/Logo.png">
+
+
+<textarea class="letrasAzul" id="textoDesencriptado"> Ingrese el texto aqui </textarea>
+
+    <div id="mensajeInformativo">
+    <img src="/Imagenes/bi_exclamation-circle-fill.png">
+    <label id="textoInformativo" class="letrasAzul">Solo letras minusculas y sin acentos</label>
+    </div>
+
+    <div id="botonesAccion">
+
+        <button id="botonEncriptar">Encriptar</button>
+        <button id="botonDesencriptar" >Desencriptar</button>
+
+    </div>
+
+    <div id="rectangulo">
+        <label  id="texto"></label>
+        <textarea hidden id="textoOculto"></textarea>
+
+        <div id="mostradorTextoEncriptado">
+            <!-- <textarea  id="textoEncriptado"></textarea> -->
+        </div>
+        <img id="muneco" src="imagenes/Muñeco.png">
+        
+
+        <div id="divtextoEncriptado">
+            <label id="textoDeAdvertencia">Ningun mensaje fue Encontrado</label>
+            <label id="textoDeAdvertencia2">Ingresa el texto que desees encriptar o desencriptar.</label>
+        </div>
+    
+        <button  hidden id="botonCopiar">Copiar</button>
+        
+    </div>
+
+</body>
+</html>
